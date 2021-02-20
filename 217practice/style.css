@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(123, 123, 123, 0.3);
+  height: 65px;
+}
+
+.header-logo {
+  padding: 0 15px;
+  letter-spacing: 2px;
+  line-height: 65px;
+}
+
+.container {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.main-wrapper {
+  background-color: #2cb386;
+  padding: 30px 0 40px 0;
+}
+
+.forms {
+  margin: 20px auto;
+}
+
+form {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.nextbutton {
+  margin-top: 40px;
+  border: 1px solid black;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 3px;
+  padding: 9px 15px;
+  background-color: rgba(44, 179, 134, 0.6);
+  color: white;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s;
+  outline: none;
+  border-radius: 2px;
+  margin-left: 12px;
+}
+
+.nextbutton:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(91, 255, 200, 0.6);
+          box-shadow: 5px 5px 10px rgba(91, 255, 200, 0.6);
+  background-color: rgba(191, 255, 234, 0.6);
+}
+
+.nextbutton:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: rgba(44, 179, 134, 0.6);
+  position: relative;
+  top: 3px;
+}
+
+.btn {
+  margin-top: 40px;
+  border: purple 1px solid;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 3px;
+  padding: 9px 15px;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px black;
+          box-shadow: 0 4px black;
+}
+
+.btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  top: 3px;
+}
